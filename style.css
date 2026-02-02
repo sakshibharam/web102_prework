@@ -73,3 +73,65 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+button:hover{
+   cursor: pointer;
+   box-shadow: 0 0 30px rgb(173, 197, 230);
+}
+
+.stats-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stats-card:hover {
+    box-shadow: 0 0 30px lightblue;
+}
+
+.navbar {
+    display: flex;
+    background-color: lightblue;
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.navbar a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+   cursor: pointer;
+   box-shadow: 0 0 30px rgb(173, 184, 230);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#game-search {
+  width: 300px;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #0b3c49;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#game-search:focus {
+  outline: none;
+  border-color: #145a6f;
+  box-shadow: 0 0 5px rgba(20, 90, 111, 0.5);
+}
